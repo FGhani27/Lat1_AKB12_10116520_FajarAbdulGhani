@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-        //Fajar Abdul Ghani - 10116520 - Sabtu, 6 April 2019
+        // 10116520- Fajar Abdul Ghani - AKB12 - Sabtu, 6 April 2019
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
