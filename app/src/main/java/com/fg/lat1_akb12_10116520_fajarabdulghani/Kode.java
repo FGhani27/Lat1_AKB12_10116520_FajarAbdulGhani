@@ -18,20 +18,11 @@ public class Kode extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Kode.this, beres.class);
+                Intent i = new Intent(Kode.this, daftar.class);
                 startActivity(i);
             }
         });
 
-
-        Button a = (Button) findViewById(R.id.button3);
-        a.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Kode.this,daftar.class);
-                startActivity(i);
-            }
-        });
 
 
     }
